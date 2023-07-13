@@ -1,0 +1,142 @@
+.content-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+	/* margin-top: 7%; */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93%;
+    width: 85%;
+}
+
+.content-page-customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 93%;
+    width: 100%;
+}
+
+.content-page-customer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 93%;
+    width: 100%;
+}
+
+.title3{
+    margin-top: 77px;
+    text-align: center;
+}
+
+.table3{
+    height: 60%;
+    overflow-y: auto;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+    width: 100%;
+}
+
+.purchase-log{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.purchase-log-content{
+    padding: 20px;
+    background-color: #bebebe;
+    width: 90%;
+    height: 80%;
+    border-radius: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.button {
+	border: none;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	cursor: pointer;
+	color: black;
+    background: none;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-options{
+   
+    padding: 7px;
+    background-color: #bebebe;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 10px;
+}
+
+.payment-options td{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.select {
+	border: none;
+	border-bottom: 4px solid white;
+	background-color: #B8CAD1;
+}
+
+.button5 {
+	background-color: #243474;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+    margin-left: 35%;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+input[type=text] {
+	border: none;
+	border-bottom: 4px solid white;
+	background-color: #B8CAD1;
+	width: 400px;
+}
+
+.title{
+    /* margin-top: 50px; */
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.title2{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+}
+

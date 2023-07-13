@@ -1,0 +1,45 @@
+.content-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+	/* margin-top: 7%; */
+}
+
+.content{
+    width: 85%;
+    height: 100%;
+	display: flex;
+    flex-direction: column;
+    padding: 0% 5% 0% 5%;
+}
+
+.title{
+    margin-top: 77px;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.name{
+    width: 33%;
+}
+
+.date{
+    width: 33%;
+}
+
+.feedback{
+    width: 33%;
+}
+
+.table{
+    margin-bottom: 77px;
+    overflow-y: auto; 
+    height: 55%;
+}
+
+.table th{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
